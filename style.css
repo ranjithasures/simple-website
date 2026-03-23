@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    background: linear-gradient(to right, #4facfe, #00f2fe);
     margin: 0;
     padding: 0;
 }
@@ -17,7 +17,7 @@ body {
 
 /* Header */
 .header {
-    background: #ff4d6d;
+    background: #0077ff;
     color: white;
     text-align: center;
     padding: 15px;
@@ -42,7 +42,7 @@ body {
 .circle {
     width: 100px;
     height: 100px;
-    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    background: linear-gradient(to right, #4facfe, #00f2fe);
     border-radius: 50%;
     margin: 0 auto 15px;
 }
@@ -54,7 +54,7 @@ body {
 }
 
 .info h4 {
-    color: #ff4d6d;
+    color: #0077ff;
     margin-bottom: 5px;
 }
 
@@ -75,14 +75,14 @@ body {
     margin: 5px;
     padding: 15px;
     text-align: center;
-    background: #ffe5ec;
+    background: #e6f2ff;
     border-radius: 10px;
     transition: 0.3s;
 }
 
 /* Hover */
 .box:hover {
-    background: green;
+    background: #0077ff;
     color: white;
     transform: scale(1.05);
 }
