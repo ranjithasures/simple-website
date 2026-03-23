@@ -82,7 +82,7 @@ body {
 
 /* Hover */
 .box:hover {
-    background: #ff4d6d;
+    background: green;
     color: white;
     transform: scale(1.05);
 }
