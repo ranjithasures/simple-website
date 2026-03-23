@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(to right, #4facfe, #00f2fe);
+    background: linear-gradient(to right, #1e3c72, #2a5298); /* Dark blue */
     margin: 0;
     padding: 0;
 }
@@ -17,7 +17,7 @@ body {
 
 /* Header */
 .header {
-    background: #0077ff;
+    background: #0d6efd; /* Pure blue */
     color: white;
     text-align: center;
     padding: 15px;
@@ -42,7 +42,7 @@ body {
 .circle {
     width: 100px;
     height: 100px;
-    background: linear-gradient(to right, #4facfe, #00f2fe);
+    background: linear-gradient(to right, #4facfe, #00c6ff); /* Blue only */
     border-radius: 50%;
     margin: 0 auto 15px;
 }
@@ -54,7 +54,7 @@ body {
 }
 
 .info h4 {
-    color: #0077ff;
+    color: #0d6efd; /* Blue */
     margin-bottom: 5px;
 }
 
@@ -75,14 +75,14 @@ body {
     margin: 5px;
     padding: 15px;
     text-align: center;
-    background: #e6f2ff;
+    background: #e7f1ff; /* Light blue */
     border-radius: 10px;
     transition: 0.3s;
 }
 
 /* Hover */
 .box:hover {
-    background: #0077ff;
+    background: #0d6efd; /* Blue hover */
     color: white;
     transform: scale(1.05);
 }
