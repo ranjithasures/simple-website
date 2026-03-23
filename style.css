@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+    background-color: white;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    border: 5px solid #3aa0c8;
+}
+
+.header {
+    background-color: #f4c542;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.profile {
+    background-color: #f4c542;
+    padding: 20px;
+    text-align: center;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    background-color: #3aa0c8;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+.boxes {
+    display: flex;
+}
+
+.box {
+    flex: 1;
+    background-color: #f4c542;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #3aa0c8;
+}
+
+.side-bar {
+    width: 40px;
+    height: 200px;
+    background-color: purple;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
